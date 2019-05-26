@@ -1,5 +1,7 @@
 # React-UI-Components
 
+Jose Montero jr
+
 - This repository is designed to be your first exposure into the world of ReactJS. There are 2 projects to complete in this repository. Project 1 is all about implementing a Social Card in ReactJS. On Project 2 you'll be implementing a Calculator. We've given you the file structure and have gone ahead and added all the files you'll need to be set up for success for each project.
 
 ## Initializing the application.
@@ -11,7 +13,6 @@
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
 ## Instructions
-
 
 - For the first project you'll work on the project found in `Project-I-Social-Card`.
 - For the second project you'll work on the project found in `Project-II-Calculator`.
