@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  display: flex;
+  align-content: center;
+}
+
+.headerTitle {
+  display: flex;
+}
+
+.imgContainer {
+  width: 5rem;
+  margin: 0.5rem 1rem 0 0.5rem;
+
+  img {
+    width: 100%;
+  }
+}
