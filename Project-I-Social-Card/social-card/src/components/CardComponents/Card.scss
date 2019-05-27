@@ -1,12 +1,19 @@
 /* All styles for your Card Components live here */
 .cardContainer {
   margin: 2rem 9rem 0 6rem;
-}
 
-.cardImgContainer {
-  width: 100%;
-
-  img {
+  .cardImgContainer {
     width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .cardContent {
+    p {
+      margin-right: 5rem;
+      margin-bottom: 1rem;
+    }
   }
 }
