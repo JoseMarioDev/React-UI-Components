@@ -1,12 +1,18 @@
 import React from 'react';
 import './Button.scss';
+import NumberButton from './NumberButton';
 
-const ActionButton = props => {
-  const { action } = props;
+const ActionButton = () => {
   return (
-    <div className='action-button'>
-      <div className='clear'>
-        <button>{action.zero}</button>
+    <div>
+      <div className='actionButton'>
+        <div className='actionZero'>
+          <p>0</p>
+        </div>
+      </div>
+      <div className='fourthRow'>
+        <NumberButton textProp='clear' buttonStyle='buttonLarge' />
+        <NumberButton textProp='&divide;' buttonStyle='buttonRed' />
       </div>
     </div>
   );
