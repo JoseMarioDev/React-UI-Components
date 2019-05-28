@@ -5,13 +5,14 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
   return (
-    <a href='https://www.reactjs.org' target='_blank'>
-      <div className='cardContainer'>
-        <CardBanner />
-        <CardContent />
-      </div>
-    </a>
+    <div className='cardContainer' onClick={clickMe}>
+      <CardBanner />
+      <CardContent />
+    </div>
   );
 };
 
+function clickMe() {
+  window.open('https://www.reactjs.org');
+}
 export default CardContainer;
