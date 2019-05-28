@@ -1,0 +1,25 @@
+/* All styles for your header Components live here */
+
+.headerContainer {
+  display: flex;
+  .headerLeft {
+    .imgContainer {
+      width: 5rem;
+      margin: 1rem 1rem 0 0.5rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .headerRight {
+    .headerTitle {
+      margin: 1rem 0;
+      display: flex;
+    }
+    .headerContent {
+      padding: 0 8rem 0 0;
+    }
+  }
+}
